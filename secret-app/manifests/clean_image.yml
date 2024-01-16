@@ -7,9 +7,3 @@ spec:
   containers:
   - name: busybox-container
     image: busybox
-    env:
-    - name: azure-keyvault-dawidappns
-      valueFrom:
-        secretKeyRef:
-          key: username
-          name: azure-keyvault-test-secret
