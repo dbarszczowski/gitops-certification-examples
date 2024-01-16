@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: busybox-container-dawidappns
+  name: busybox-clean-version
   namespace: dawid-app # Specify the namespace here
 spec:
   containers:
-  - name: busybox-container
+  - name: busybox-container-clean
     image: busybox
